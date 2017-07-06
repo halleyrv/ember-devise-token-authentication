@@ -45,7 +45,8 @@ Specify what it takes to deploy your app.
 
 En este tutorial mostrare como crear una aplicación que integre ember simple-auth con devise-token-auth rails (la parte del front end)
 
-El Backend en Ruby on rails con devise-auth-token lo puedes encontrar [Aqui](https://github.com/halleyrv/rails-devise-token-auth) 
+### Importante
+Recuerda que El **Backend en Ruby on rails** con devise-auth-token lo puedes encontrar [Aqui](https://github.com/halleyrv/rails-devise-token-auth) 
 
 
 ## Primeros pasos
