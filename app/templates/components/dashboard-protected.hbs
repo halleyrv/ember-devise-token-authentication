@@ -1,0 +1,6 @@
+Esta ruta esta protegida, deberias verla solo si te has autenticado correctamente
+{{#if session.isAuthenticated}}
+  <br>
+   Tu numero de token asignado es: {{session.data.authenticated.accessToken}}
+{{/if}}  
+{{yield}}

@@ -1,0 +1,10 @@
+{{#if session.isAuthenticated}}
+  {{#link-to 'protected'}}Protected{{/link-to}}
+  {{#link-to 'contact'}}Contact{{/link-to}}
+  <button {{action 'invalidateSession'}}>Logout</button>
+   <button {{action 'verUidSession'}}> Ver Uid Sessión</button>
+{{else}}
+  {{#link-to 'login'}}Login{{/link-to}}
+{{/if}}
+
+{{yield}}
