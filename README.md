@@ -167,7 +167,7 @@ ember g authenticator authenticator-devise
 ```
 
 ```bash
-ember g autorizer autorizer-devise
+ember g autorizer authorizer-devise
 ```
 
 
